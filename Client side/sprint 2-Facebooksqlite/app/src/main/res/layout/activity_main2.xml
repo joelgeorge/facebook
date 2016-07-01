@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#3b5998"
+    tools:context="com.joelgeorge.facebooksqlite.Main2Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="signup"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:id="@+id/signup"
+            android:layout_gravity="center"
+            />
+<EditText
+    android:background="@drawable/roundall"
+    android:layout_marginTop="15dp"
+    android:layout_width="300dp"
+    android:layout_height="30dp"
+    android:layout_gravity="center"
+    android:hint="first name"
+    android:id="@+id/etfname"
+    android:textCursorDrawable="@drawable/cursorcolour"
+
+    />
+
+
+        <EditText
+            android:background="@drawable/roundall"
+            android:layout_marginTop="15dp"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:hint="last name"
+            android:id="@+id/etlname"
+            android:textCursorDrawable="@drawable/cursorcolour"
+
+            />
+        <TextView
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   Date of birth"
+            />
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+            <EditText
+                android:background="@drawable/roundall"
+                android:layout_marginLeft="0dp"
+                android:layout_width="90dp"
+                android:layout_height="30dp"
+                android:hint="day"
+                android:id="@+id/etday"
+                android:textCursorDrawable="@drawable/cursorcolour"
+                />
+            <EditText
+                android:background="@drawable/roundall"
+                android:layout_marginLeft="10dp"
+                android:layout_width="90dp"
+                android:layout_height="30dp"
+                android:hint="month"
+                android:id="@+id/etmonth"
+                android:textCursorDrawable="@drawable/cursorcolour"
+                />
+            <EditText
+                android:background="@drawable/roundall"
+                android:layout_marginLeft="10dp"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:hint="year"
+                android:id="@+id/etyear"
+                android:textCursorDrawable="@drawable/cursorcolour"
+                />
+
+        </LinearLayout>
+
+
+        <EditText
+            android:background="@drawable/roundall"
+            android:layout_marginTop="15dp"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:hint="password"
+            android:id="@+id/etpass1"
+            android:textCursorDrawable="@drawable/cursorcolour"
+            />
+
+        <EditText
+            android:background="@drawable/roundall"
+            android:layout_marginTop="15dp"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:hint="re-enter password"
+            android:id="@+id/etpass2"
+            android:textCursorDrawable="@drawable/cursorcolour"
+
+            />
+
+<Button
+    android:layout_width="300dp"
+    android:layout_height="40dp"
+    android:layout_gravity="center"
+    android:textColor="#ffffff"
+    android:textAllCaps="false"
+    android:text="sign up"
+    android:layout_marginTop="30dp"
+    android:background="@drawable/roundallb"
+    android:id="@+id/btsign"
+    android:clickable="true" />
+
+<Button
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="show data"
+    android:id="@+id/data"
+    />
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

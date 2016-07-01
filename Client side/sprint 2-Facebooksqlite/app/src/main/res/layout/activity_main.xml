@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.joelgeorge.facebooksqlite.MainActivity"
+    android:background="#3b5998">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal"
+         >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="140dp"
+    android:text="facebook"
+    android:textStyle="bold"
+    android:textSize="50dp"
+    android:textColor="#ffffff"
+    />
+
+
+
+        <EditText
+    android:layout_width="300dp"
+    android:layout_height="50dp"
+    android:layout_marginTop="25dp"
+    android:layout_gravity="center_horizontal"
+    android:textColor="#000000"
+    android:background="@drawable/round1"
+    android:drawableBottom="#000000"
+    android:hint="   mobile no./email"
+    android:textCursorDrawable="@drawable/cursorcolour"
+    android:id="@+id/etuser"
+
+
+    />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0.3dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/round2"
+            android:hint="   password"
+            android:textCursorDrawable="@drawable/cursorcolour"
+            android:id="@+id/etpass"
+            />
+
+
+        <Button
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:text="log in"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#616aca"
+            android:id="@+id/btlogin"
+            />
+
+        <ProgressBar
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:text="Sign Up for Facebook"
+            android:textColor="#ffffff"
+            android:id="@+id/signup"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="Need Help?"
+            android:textColor="#ffffff"
+            />
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
